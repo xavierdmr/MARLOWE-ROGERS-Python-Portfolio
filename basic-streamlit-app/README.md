@@ -1,5 +1,5 @@
 ## "Pick A Penguin" app
-This is an app that presents the user with data (imported from Canvas) on over 300 penguins and enables the user to filter by characteristic to ultimately select one penguin.
+This is an app that presents the user with data on over 300 penguins and enables the user to filter by characteristic to ultimately select one penguin.
 
 While the data includes penguin species, island of origin, bill and flipper size, body mass, sex, and year of birth, I only include drop-down filters for species and sex, with a slider for body mass.
 
