@@ -4,6 +4,7 @@ This repository contains all of the Python projects that I will be completing ov
 
 ___
 # Projects
+Portfolio Update 1 App: "Pick A Penguin"
 
 ___
 ## Exploratory Data Analysis
