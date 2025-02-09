@@ -7,7 +7,7 @@ st.title("Pick A Penguin!")
 st.write("Welcome to Pick A Penguin! This app allows you to view details about hundreds of different penguins and select one of them that is right for you.")
 st.write("Below is a table documenting 344 penguins of various species, islands of origin, and sizes.")
 
-# Brings in penguins.csv dataset from  data folder. Important that the user has this dataset downloaded in a "data" folder as well
+# Brings in penguins.csv dataset from  data folder
 df = pd.read_csv("data/penguins.csv")
 
 # First data table (full and unfiltered)
