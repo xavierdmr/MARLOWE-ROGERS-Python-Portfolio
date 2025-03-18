@@ -11,7 +11,7 @@ Portfolio Update 1 App: "Pick A Penguin"
 
 - **INSTRUCTIONS** - This app runs on the streamlit framework. To run in VS code, open the terminal and enter the command: "**cd basic-streamlit-app**" followed by the command "**streamlit run main.py**".
 
-Portfolio Update 2: Tidy Data Project - Olympic Medalist Analysis
+Portfolio Update 2: [Tidy Data Project - Olympic Medalist Analysis](https://github.com/xavierdmr/MARLOWE-ROGERS-Python-Portfolio/tree/main/TidyData-Project)
 
 - The **Tidy Data Project** is an exercise in data cleaning and analysis as I demonstrate my ability to restructure and analyze a real-world dataset.
 
