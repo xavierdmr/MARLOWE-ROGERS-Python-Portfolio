@@ -18,7 +18,7 @@ This app:
 - Ensure all necessary dependencies are installed (pandas, spaCy, streamlit)
 - Run the app using the command "streamlit run main.py"
 ### Link to Deployed Version:
-- Try the app live here:
+- Try the app live here: https://rogers-ner-app.streamlit.app/
 
 ## App Features
 ### Text Input:
