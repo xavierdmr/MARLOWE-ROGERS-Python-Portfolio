@@ -1,7 +1,46 @@
-## "Pick A Penguin" app
-This is an app that presents the user with data on over 300 penguins and enables the user to filter by characteristic to ultimately select one penguin.
+# 🐧 Pick A Penguin – Interactive Streamlit App
 
-While the data includes penguin species, island of origin, bill and flipper size, body mass, sex, and year of birth, I only include drop-down filters for species and sex, with a slider for body mass.
+This beginner-level Streamlit app allows users to explore a dataset of 344 penguins by filtering based on species, sex, and body mass. The app is designed to help users discover and "select" a penguin that fits their criteria.
 
-## Try the app!
-To run in VS code, open the terminal and enter the command: "cd basic-streamlit-app" followed by the command "streamlit run main.py"
+---
+
+## Project Overview
+
+"Pick A Penguin" introduces interactive web app development using Streamlit and pandas. By providing dropdown filters and sliders, users can dynamically narrow the dataset and view the details of their chosen penguin.
+
+---
+
+## Setup & Run Instructions
+
+1. Clone this repository.
+2. Navigate to the project directory: cd basicstreamlitapp
+3. Install dependencies: 
+    - pip install streamlit
+    - pip install pandas
+4. Run the app: streamlit run main.py
+
+---
+
+## App Features
+
+- View a dataset of 344 penguins with various biological characteristics.
+- Filter by:
+    - Species (e.g.,  Adelie, Chinstrap, Gentoo)
+    - Sex (Male or Female)
+    - Body Mass (grams)
+- Select a penguin by ID to view detailed information about it.
+- Display a penguin image after selection.
+
+---
+
+## Dataset
+
+- Source: [**Palmer Penguins Dataset**](data/penguins.csv)
+- Contains species, island of origin, bill size, flipper length, body mass, sex, and year
+
+---
+
+## References
+
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)

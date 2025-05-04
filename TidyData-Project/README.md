@@ -1,5 +1,6 @@
-# 🏅 Olympic Medalist Data Analysis (2008 Beijing Summer Olympics)
-## Tidy Data Project
+# 🏅 Olympic Medalist Data Analysis (2008 Beijing Summer Olympics) – Tidy Data Project
+
+---
 
 ## Project Overview:
 
@@ -14,35 +15,42 @@ Throughout this project I apply the 3 key tidy data principles:
 
 In the case of this project, we have only one type of observational unit–Olympic medals. We therefore only work with one table.
 
-Converting this dataset into a tidy format enables me to:
+This enables the user to:
 - Summarize the distribution of medals across sports and gender
 - Create stacked bar charts, pie charts, and pivot tables to illlustrate trends in the data
 - Analyze patterns and trends in the data across gender, sport, and medal type
 
-## How to Run:
+---
 
-1. Clone or download this repository
-2. Open the notebook file "olympic_analysis.ipynb"
-3. Run each cell sequentially from top to bottom.
+## Setup and Run Instructions:
 
-Be sure to install the base dependencies (pandas and matplotlib)!
+1. Clone this repository
+2. Navigate to the project directory: cd TidyData-Project
+3. Install dependencies:
+    - pip install pandas
+    - pip install matplotlib.pyplot
+4. Run each cell sequentially from top to bottom.
+
+---
 
 ## Dataset Description
 
-Source: [**olympics.csv**](olympics.csv) – data on medalists from the 2008 Summer Olympics in Beijing
+- Source: [**olympics.csv**](olympics.csv) – data on medalists from the 2008 Summer Olympics in Beijing
+- Structure:
+    - The original dataset is in wide format, with one column per gender-sport combination
+    - Each row initially represents a medalist, with only one medal per row.
+- No other pre-processing steps are required, as all data cleaning and analysis occurs within the notebook itself.
 
-Structure:
-- The original dataset is in wide format, with one column per gender-sport combination
-- Each row initially represents a medalist, with only one medal per row.
-
-No other pre-processing steps are required, as all data cleaning and analysis occurs within the notebook itself.
+---
 
 ## References: 
 
-Must have a pdf viewer installed (like [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)) to view these files:
+Must have a pdf viewer installed (e.g., [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)) to view these files:
 
 1. [Pandas Cheat Sheet](media/Pandas_Cheat_Sheet.pdf)
 2. [Tidy Data Principles](media/tidy-data.pdf)
+
+---
 
 ## Visual Examples:
 
