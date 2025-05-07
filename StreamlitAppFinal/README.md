@@ -26,6 +26,7 @@ This app demonstrates:
     - pip install streamlit
     - pip install pandas
     - pip install matplotlib
+    - pip install os
 - Run the app using the command "streamlit run main.py"
 
 ---

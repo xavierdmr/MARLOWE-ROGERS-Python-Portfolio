@@ -1,8 +1,8 @@
 # Install dependencies
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import os
+import pandas as pd # For working with dataframes
+import matplotlib.pyplot as plt # For plotting charts/data visualizations
+import os # Needed to resolve issue of reading in the sample data when I deployed to streamlit cloud
 
 # Main title of the app
 st.title("🌍 Country Comparison App 🌍")
@@ -22,10 +22,12 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.sidebar.success("File uploaded.") # Give green message confirming that user data was uploaded
 else:
+    # I had trouble with reading in the sample data when deploying the app to streamlit cloud
+    # Came across this solution in troubleshooting. Using os ensures the file is found relative to the script, not just wherever the code happens to execute
     current_dir = os.path.dirname(__file__)  # Gets the directory this script is in
-    file_path = os.path.join(current_dir, 'data', 'wdi_data.csv')  # Builds the full path
-    df = pd.read_csv(file_path, encoding='utf-8')  # Reads the file using the absolute path
-    st.sidebar.info("Currently using sample dataset.") # Indicate that the data being used is the sample dataset
+    file_path = os.path.join(current_dir, 'data', 'wdi_data.csv')  # Builds the full path to the sample data file
+    df = pd.read_csv(file_path, encoding='utf-8')  # Reads the file using this path
+    st.sidebar.info("Currently using sample dataset.") # Indicates that the data being used is the sample dataset
 
 # To prevent crashing if user uploads a random file with unrelated data, shows an error message and stops the app if the required columns for the dropdowns aren't present.
 required_cols = ["Country Name", "Country Code", "Series Name", "Series Code"]
