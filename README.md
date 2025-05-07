@@ -5,7 +5,7 @@ This repository contains all of the Python projects that I have completed over t
 ___
 ## Projects
 
-### Portfolio Update 1 App: "Pick A Penguin"
+### Portfolio Update 1 App: [Basic Streamlit App – "Pick a Penguin"](https://github.com/xavierdmr/MARLOWE-ROGERS-Python-Portfolio/tree/main/basic-streamlit-app)
 
 - Displays information on hundreds of different penguins and allows the user to filter based on certain criteria to ultimately select a singular penguin.
 
