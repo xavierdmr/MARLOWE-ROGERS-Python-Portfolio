@@ -33,7 +33,7 @@ This app demonstrates:
 
 ### Link to Deployed Version:
 
-- Try the app live here: [Country Comparison App]
+- Try the app live here: [Country Comparison App](https://wdi-country-comparison.streamlit.app/)
 
 ---
 
