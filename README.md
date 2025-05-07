@@ -19,7 +19,7 @@ ___
     - Reshaping data using 'pd.melt()' and 'str.split()'
     - Visualization techniques such as bar charts, stacked bar charts, and pie charts
     - Pivot tables to summarize insights and support aggregation
-    - Application of Hadley Wickham's "Tidy Data" principles 
+    - Application of Hadley Wickham's **"Tidy Data" principles**
 
 - This project complements my overall portfolio by highlighting my skills in **data wrangling, data analysis, and visualization**.
 
@@ -28,8 +28,8 @@ ___
 - This project is a Streamlit App that allows users to upload or paste in text to be processed using Named Entity Recognition (NER) in spaCy.
 
 - Key components of this project include:
-    - Allowing users create their own custom entity patterns using EntityRuler
-    - Displaying labeled text using spaCy's displaCy visualization tool
+    - Allowing users create their own custom entity patterns using **EntityRuler**
+    - Displaying labeled text using spaCy's **displaCy** visualization tool
     - Additional analysis of entity patterns through a table that aggregates the most frequent label-text combinations
       
 - This project complements my overall portfolio by highlighting my understanding of **natural language processing** and my proficiency in **spaCy**.
@@ -40,7 +40,7 @@ ___
 
 - Key components of this project include:
     - Allowing users to upload their own CSV files or use the provided World Bank sample data
-    - Dynamic country and indicator selection using Streamlit widgets
+    - Dynamic country and indicator selection using **Streamlit** widgets
     - Interactive line and bar charts with auto-scaling axes for readability using **matplotlib**
     - A filtered data table that updates based on user selections
 
