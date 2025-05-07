@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 # Main title of the app
 st.title("🌍 Country Comparison App 🌍")
@@ -21,7 +22,9 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.sidebar.success("File uploaded.") # Give green message confirming that user data was uploaded
 else:
-    df = pd.read_csv("data/wdi_data.csv", encoding='utf-8')
+    current_dir = os.path.dirname(__file__)  # Gets the directory this script is in
+    file_path = os.path.join(current_dir, 'data', 'wdi_data.csv')  # Builds the full path
+    df = pd.read_csv(file_path, encoding='utf-8')  # Reads the file using the absolute path
     st.sidebar.info("Currently using sample dataset.") # Indicate that the data being used is the sample dataset
 
 # To prevent crashing if user uploads a random file with unrelated data, shows an error message and stops the app if the required columns for the dropdowns aren't present.
