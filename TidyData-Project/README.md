@@ -13,7 +13,7 @@ Throughout this project I apply the 3 key tidy data principles:
 - **Each observation forms a row** (one medal awarded)
 - **Each type of observational unit forms a table** 
 
-In the case of this project, we have only one type of observational unit–Olympic medals. We therefore only work with one table.
+In the case of this project, we have only one type of observational unit: Olympic medals. We therefore only work with one table.
 
 This enables the user to:
 - Summarize the distribution of medals across sports and gender

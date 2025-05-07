@@ -25,7 +25,7 @@ This beginner-level Streamlit app allows users to explore a dataset of 344 pengu
 
 - View a dataset of 344 penguins with various biological characteristics.
 - Filter by:
-    - Species (e.g.,  Adelie, Chinstrap, Gentoo)
+    - Species (Adelie, Chinstrap, Gentoo)
     - Sex (Male or Female)
     - Body Mass (grams)
 - Select a penguin by ID to view detailed information about it.

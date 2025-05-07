@@ -30,7 +30,7 @@ This app:
 
 ### Link to Deployed Version:
 
-- Try the app live here: [NER Streamlit App](https://rogers-ner-app.streamlit.app/)
+- Try the app live here: [**NER Streamlit App**](https://rogers-ner-app.streamlit.app/)
 
 ---
 
