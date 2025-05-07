@@ -21,7 +21,7 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.sidebar.success("File uploaded.") # Give green message confirming that user data was uploaded
 else:
-    df = pd.read_csv("data/wdi_data.csv")
+    df = pd.read_csv("wdi_data.csv")
     st.sidebar.info("Currently using sample dataset.") # Indicate that the data being used is the sample dataset
 
 # To prevent crashing if user uploads a random file with unrelated data, shows an error message and stops the app if the required columns for the dropdowns aren't present.
